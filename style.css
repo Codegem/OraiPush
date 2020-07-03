@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: blue;
+}
+
+h1{
+    justify:center;
+    margin-left:5rem;
+    color: white;
+}
+
+/* searcho lauko formating */
+
+.input-group{
+    margin: 0.5rem;
+}
+
+.inputas{
+    outline: none;
+}
+
+.search-btn{
+    position: absolute;
+    left: -100%;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+/* searcho lauko formating */
+/* bg cloud and ul li elements */
+
+/* END bg cloud and ul li elements END */
+
+.locations{
+    margin-top:1rem;
+}
+
+.locationbtn{
+    text-align: left;
+    height: 1.8rem;
+    width:12rem;
+    padding: 0.2em;
+}
+
+.days-navigation{
+
+}
+
+.card1{
+    width: 25rem;
+    height: 9rem;
+    border-top: solid 5px chocolate;
+    border-radius: 0;
+}
+
+.days-navigation ul li{
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+/* .days-navigation ul li:hover{
+    border-top: solid chocolate 2px;
+} */
+
+.days-navigation ul li:focus{
+    border-top: solid chocolate 2px;
+}
+
+.card2{
+    width: 8rem;
+    height: 6rem;
+    border-bottom: solid 5px chocolate;
+    border-radius: 0;
+}
